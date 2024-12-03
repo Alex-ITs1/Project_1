@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE2B0;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+    margin-right: 100px;
+}
+li:last-child{
+    margin-right: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin
+}
+a:hover{
+    color: blue;
+}
+nav{
+    margin-bottom: 20px;
+}
+.section-about{
+    height: 650px;
+    background-image: url(../img/01-Картинка-фона.jpg);
+    background-position:center;
+    margin-bottom: 20px;
+}
+.section-about__block{
+    width: 480px;
+    height: 220px;
+    position: relative;
+    left: 900px;
+    top: 400px;
+    background:linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65, 0.8) 100%);
+    padding-top: 20px;
+}
+.section-about__border{
+    width: 430px;
+    height: 180px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+.section-about__title{
+    font-size: 36px;
+    margin: 0%;
+}
+.section-about__text{
+    font-size: 16px;
+    margin: 0%;
+}
+.section-stamps_icons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-stamps_icons img{
+margin-right: 76px;
+}
+.section-stamps_icons img:last-child{
+    margin-right: 0px;
+}
+.section-about__title2{
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.title_color{
+    color: #F15B40;
+}
+.section-about__text2{
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section-about__title3{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.section-map{
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.linie{
+    width: 1200px;
+    border: 1px black solid;
+    margin: 0px auto;
+    text-align: center;
+
+}
+footer li{
+font-size: px;
+padding-bottom: 60px;
+padding-top: 15px;
+}
